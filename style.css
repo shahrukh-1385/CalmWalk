@@ -52,11 +52,44 @@ ul{
     height: 80vh;
     background-size: cover;
 }
+.col-img{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+}
+.img-fluid{
+    height: 45vh !important;
+    width: 120% !important;
+}
+.img-fluid:hover{
+    transition: 0.5s;
 
-
-
-
-
+}
+.title-bottom{
+    text-align: center;
+    margin-top: 50px;
+}
+.mini-title{
+    position: relative;
+    font-weight: 900 !important;
+    color: #800080;
+    font-size: 16px;
+}
+.main-title{
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+    font-size: 28px;
+    line-height: 1 !important;
+    letter-spacing: .02em !important;
+}
+.border-title-bottom{
+    border: 1px solid #800080;
+    position: relative;
+    width: 12vh;
+    margin: 0 auto;
+    border-radius: 25px;
+}
 
 
 
