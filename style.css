@@ -139,8 +139,27 @@ ul{
     letter-spacing: .5em;
     line-height: 1.3em;
 }
-
-
+.form-inline{
+    float: right !important;
+}
+.btn-outlinefa-border-info{
+    border: 1px solid #800080 !important;
+    background-color: #800080 !important;
+    color: aliceblue !important;
+    font-weight: bold !important;
+    border-radius: 0px !important;
+    height: 50px !important;
+    width: 23vh !important;
+    background-color: rgb(255, 255, 255);
+}
+.form-control{
+    border: 1px solid #eee !important;
+    border-radius: 0px !important;
+    color: #777 !important;
+    font-weight: 600 !important;
+    height: 50px !important;
+    width: 35vh !important;
+}
 
 
 
