@@ -166,11 +166,16 @@ ul{
     border-color: #eee !important;
     width: 23vh;
     height: 7vh !important;
-
 }
-
-
-
+.copyright-link{
+    color: #ff0000 !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logo-company{
+    padding: 0 7px;
+    float: right;
+}
 
 
 
