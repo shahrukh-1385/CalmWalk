@@ -20,20 +20,19 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
  </head>
   <body>
-    
     <div class="header" style="background-color:#eee;">
         <div class="top-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
-                        <ul class="left-ul d-sm-none d-xl-flex pt-3">
+                    <div class="col d-none d-lg-flex">
+                        <ul class="left-ul pt-3 d-flex">
                             <li class="text-top-header wel">Welcome to Our Website CalmWalk</li>
                             <li class="text-top-header call"><i class="fa fa-phone" style="color:#800080;"></i>Call Us: 1300 400 440</li>
                         </ul>
                     </div>
-                    <div class="col-6">
+                    <div class="col ">
                         <ul>
-                            <li class="dropdown flotfix dropdown-login">
+                            <li class="dropdown flotfix dropdown-login py-3">
                                 <a class="dropdown-toggle text-manager" data-toggle="dropdown" href="#"><i class="fa fa-user" style="padding-right:10px;"></i>My account</a>
                                 <ul class="dropdown-menu fade">
                                     <li><a href="#" class="pl-3 text-drop">login</a></li>
@@ -88,15 +87,18 @@
     </div>
 </section>
 <section>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row pt-5 col-img ">
-            <div class="col col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-sm-12 col-md-6 " style="margin-top: 20px;">
+                <div>
                     <img src="./img/Demonstration-1.png" class="img-fluid">
+                </div>
             </div>
-            <div class="col-sm-12 col-md-6  pr-3">
+            <div class="col-sm-12 col-md-6 " style="margin-top: 20px;">
+                <div>
                     <img src="./img/Demonstration-2.png" class="img-fluid">
+                </div>
             </div>
-        </div>
     </div>
     <div class="title-bottom py-4">
         <h6 class="mini-title">Gallery</h4>
@@ -108,7 +110,7 @@
     <div class="section-slider">
         <div class="container">
             <div class="row row-card hidden-xs d-md-flex">
-                <div class="col col-sm-12 col-md-6 col-lg-3 card-items">
+                <div class="col col-lg-3 d-none d-lg-inline-block card-items">
                     <div class="border-card" style="background: url(./img/section-slider-1.jpg);"></div>
                     <div class="star-card">
                         <div class="star"></div>
@@ -119,7 +121,7 @@
                     </div>
                     <div class="text-star">Kobicha</div>
                 </div>
-                <div class="col  col-sm-12 col-md-6 col-lg-3 card-items">
+                <div class="col col-lg-3 d-none d-lg-inline-block card-items">
                     <div class="border-card"  style="background: url(./img/section-slider-2.jpeg);"></div>
                     <div class="star-card">
                         <div class="star"></div>
@@ -130,7 +132,7 @@
                     </div>
                     <div class="text-star">Hazelnut</div>
                 </div>
-                <div class="col col-sm-12 col-md-6 col-lg-3 card-items">
+                <div class="col col-lg-3 d-none d-lg-inline-block card-items">
                     <div class="border-card"  style="background: url(./img/section-slider-3.jpg);"></div>
                     <div class="star-card">
                         <div class="star"></div>
@@ -141,7 +143,7 @@
                     </div>
                     <div class="text-star">Lavender Grey</div>
                 </div>
-                <div class="col col-sm-12 col-md-6 col-lg-3 card-items">
+                <div class="col col-lg-3 d-none d-lg-inline-block card-items">
                     <div class="border-card"  style="background: url(./img/section-slider-4.jpg);"></div>
                     <div class="star-card">
                         <div class="star"></div>
@@ -168,26 +170,43 @@
 </section>
 <section style="background-color: #f9f9f9;">
     <div class="container">
-        <div class="row" style="border-bottom: 1px solid #ddd; padding: 35px 0px; font-weight: 700; letter-spacing: .03em;">
-            <div class="col col-sm-none col-md-6" style="border-right: 1px solid #ddd; letter-spacing: .03em;">
-                <h4 style="font-size: 18px; color: #222;">KNOW IT ALL FIRST!</h4>
-                <div style="font-size: 14px; color: #777;">Never Miss Anything From Us By Signing Up To Our Newsletter.</div>
-            </div>
-            <div class="col col-sm-12 col-md-6 ">
-                        <form class="form-inline my-2 my-lg-0 floatfix">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Enter your email">
-                            <button class="btn btn-outlinefa-border-info my-2 my-sm-0" type="submit">SUBSCRIBE</button>
-                        </form>
+        <div class="row footer-top-row d-none d-lg-flex" style=" padding: 35px 0; ">
+            <div class="col " style="border-right: 1px solid #ddd;">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-left-top">KNOW IT ALL FIRST!</h4>
                     </div>
-                </nav>
+                    <div class="col-12">
+                        <div class="text-left-bottom">
+                            Never Miss Anything From Us By Signing Up To Our Newsletter.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col ">
+                <form class="form-inline my-2 my-lg-0 floatfix" style="float: right;">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Enter your email">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SUBSCRIBE</button>
+                </form>
             </div>
         </div>
     </div>
 </section>
-
-
-
-
+<section class="responsive-header-top">
+    <div class="container">
+        <div class="row d-lg-none" style="border-bottom: 1px solid #ddd; padding: 30px;">
+            <div class="col-12 d-sm-inline">
+                <h4 class="text-left-top" style="display: flex !important; justify-content: center !important; margin-bottom: 10px;">KNOW IT ALL FIRST!</h4>
+            </div>
+            <div class="col-12 d-sm-flex">
+                <form class="form-inline my-2 my-lg-0 floatfix" style="float: right; display: flex !important; margin: 0 auto;">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Enter your email">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
